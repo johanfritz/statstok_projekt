@@ -13,6 +13,7 @@ import scipy.signal
 # Load the data (You can use this way the entire course)
 path_to_data = "labs_python/data.mat" # Change to YOUR path to data.
 data = scipy.io.loadmat(path_to_data,simplify_cells=True)
+print("test change here 2024-09-13")
 print(data.keys())
 # Plot the sequences
 plt.figure(figsize=(8, 4))
